@@ -99,11 +99,11 @@ public:
 		{
 			if (i < 4)
 			{
-				cout << '"' << tags_num[i] << '"' << ',';
+				cout  << tags_num[i] <<',';
 			}
 			else
 			{
-				cout << '"' << tags_num[i] << '"' << "],"<<endl;
+				cout << tags_num[i] << "],"<<endl;
 			}
 
 		}
@@ -126,11 +126,11 @@ public:
 		{
 			if (i < 2)
 			{
-				cout << '"' << sched_num[i] << '"' << ',';
+				cout << sched_num[i] << ',';
 			}
 			else
 			{
-				cout << '"' << sched_num[i] << '"' << "]" << endl;
+				cout << sched_num[i]<< "]" << endl;
 			}
 		}
 		
@@ -221,11 +221,11 @@ void Students::output_Students()
 	{
 		if (i < t-1)
 		{
-			cout << '"' << tags_num[i] << '"' << ',';
+			cout  << tags_num[i]  << ',';
 		}
 		else
 		{
-			cout << '"' << tags_num[i] << '"' << "]," << endl;
+			cout << tags_num[i] <<  "]," << endl;
 		}
 
 	}
@@ -248,11 +248,11 @@ void Students::output_Students()
 	{
 		if (i < sch-1)
 		{
-			cout << '"' << sched_num[i] << '"' << ',';
+			cout  << sched_num[i]  << ',';
 		}
 		else
 		{
-			cout << '"' << sched_num[i] << '"' << "]," << endl;
+			cout << sched_num[i] <<"]," << endl;
 		}
 	}
 	printf("\t\t\t");
@@ -274,11 +274,11 @@ void Students::output_Students()
 	{
 		if (i < de_app - 1)
 		{
-			cout << '"' << de_app_num[i] << '"' << ',';
+			cout  << de_app_num[i] <<  ',';
 		}
 		else
 		{
-			cout << '"' << de_app_num[i]<< '"' << "]" << endl;
+			cout <<  de_app_num[i]<< "]" << endl;
 		}
 	}
 
